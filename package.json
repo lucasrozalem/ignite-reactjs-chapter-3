@@ -1,0 +1,46 @@
+{
+  "name": "ignite-chapter-3",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "slicemachine": "start-slicemachine",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@prismicio/client": "5.1.1",
+    "@prismicio/helpers": "^2.3.0",
+    "@prismicio/slice-simulator-react": "^0.2.2",
+    "@prismicio/react": "^2.4.2",
+    "@stripe/stripe-js": "^1.24.0",
+    "axios": "^0.27.2",
+    "faunadb": "^4.5.4",
+    "next": "12.1.5",
+    "next-auth": "^4.3.4",
+    "prismic-dom": "^2.2.7",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-icons": "^4.2.0",
+    "sass": "^1.39.0",
+    "stripe": "^8.176.0"
+  },
+  "devDependencies": {
+    "@testing-library/dom": "^8.13.0",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "12.1.2",
+    "@types/next-auth": "^3.15.0",
+    "@types/node": "^15.6.0",
+    "@types/prismic-dom": "^2.1.1",
+    "@types/react": "^17.0.6",
+    "babel-jest": "^28.1.0",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^28.1.2",
+    "jest-dom": "^4.0.0",
+    "jest-environment-jsdom": "^28.1.2",
+    "slice-machine-ui": "^0.3.8",
+    "typescript": "^4.4.2"
+  }
+}
