@@ -67,10 +67,11 @@ export default NextAuth({
         );
 
         return true;
-      } catch {
+      } catch (err) {
+        console.log(err);
         return false;
       }
     },
   },
-  secret: 'process.env.NEXTAUTH_SECRET',
+  secret: "process.env.NEXTAUTH_SECRET",
 });
